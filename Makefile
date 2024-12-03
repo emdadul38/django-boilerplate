@@ -16,3 +16,10 @@ dev-install:
 	pip install -r requirements/dev.txt
 dev-test:
 	python3 manage.py test --settings=config.settings.dev
+
+dev-command:
+	python3 manage.py help --settings=config.settings.dev
+
+# make django-admin arg=help
+django-admin:
+	python3 manage.py $(arg) --settings=config.settings.dev

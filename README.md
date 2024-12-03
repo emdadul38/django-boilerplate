@@ -9,7 +9,7 @@ Here, I present to you this boilerplate that set up an enterprise standard Djang
 
 ## Set Up
 
-- Clone the repo `git clone https://github.com/Eyongkevin/django-boilerplate.git`
+- Clone the repo `git clone https://github.com/emdadul38/django-boilerplate.git`
 - Change the project name to your own project name: `mv django-boilerplate/ <your-project-name>`
 - Add an `.env` file with the following configurations
 
@@ -21,11 +21,6 @@ DB_PWD=postgres
 DB_HOST=127.0.0.1
 DB_PORT=5432
 ```
-
-### Using sqlite3
-
-- If you want to use `sqlite3` as your database, then just the `SECRET_KEY` is required.
-- The boilerplate is configured to use postgresql by default. So, to switch to sqlite3, move to the development settings at [config/settings/dev.py](https://github.com/Eyongkevin/django-boilerplate/blob/main/config/settings/dev.py) and adjust the database for sqlite3 by uncommenting for sqlite3 and commenting for postgresql.
 
 #### Generate your SECRET_KEY
 
